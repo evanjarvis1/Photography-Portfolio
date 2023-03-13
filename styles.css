@@ -1,0 +1,63 @@
+body {
+    background-image: url('sundance\ bridge.jpg');
+    background-size: cover;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(68, 73, 65);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(95, 122, 97);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.header {
+    margin: 0;
+    padding: 3vh;
+    text-align: center;
+    background: rgb(247, 247, 232, .7);
+    color: black;
+    font-size: 3.5vh;
+  }
+
+  .feed {
+    width: 75vw;
+    display: flex;
+    margin-left: 12.5vw;
+  }
+
+  .bodytext {
+    height: 100vh;
+    background-color: rgb(68, 73, 65, .8);
+    width: 75vw;
+    display: flex;
+    margin-left: 12.5vw;
+    color: rgb(247, 247, 232);
+    font-size: 1.75vw;
+  }
+
+  .profilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .instaButton {
+    border-radius: 25px;
+    padding: .5vw;
+    background-color: rgb(247, 247, 232, .4);
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+  }
